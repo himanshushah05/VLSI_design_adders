@@ -1,4 +1,4 @@
-module cla_adder_df_20bei0013(input [3:0]a, b, input cin, output [4:0]s); 
+module cla_adder_df(input [3:0]a, b, input cin, output [4:0]s); 
   wire [3:0] p, g, c;  
   assign g= a&b; 
   assign p= a^b; 
